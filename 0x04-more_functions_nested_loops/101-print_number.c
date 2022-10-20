@@ -40,10 +40,8 @@ void print_number(int n)
 				num = -1;
 			}
 			else
-			{
 				_putchar((num / m % 10) + '0');
 				m /= 10;
-			}
 		}
 	}
 }
