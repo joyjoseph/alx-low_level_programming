@@ -28,9 +28,7 @@ void print_number(int n)
 			m *= 10;
 		}
 		else
-		{
 			c = 0;
-		}
 		/* count down */
 		while (num >= 0)
 		{
