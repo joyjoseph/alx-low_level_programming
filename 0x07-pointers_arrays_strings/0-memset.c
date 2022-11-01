@@ -1,12 +1,12 @@
 #include "main.h"
 #include <string.h>
+
 /**
- *_memset - fills memory with a constant byte
- *Description: function fills the first n bytes of the memory area
+ *_memset - this memory set function
  *@s: a string
  *@b: a character
  *@n: an interger
- *Returns: a string
+ *Return: a string
  **/
 char *_memset(char *s, char b, unsigned int n)
 {
